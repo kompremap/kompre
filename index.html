@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Konfigurator laptopów</title>
+  <title>Quiz Shopera</title>
   <style>
     body { margin: 0; padding: 20px; font-family: Arial, sans-serif; }
     #logo { text-align: center; margin-bottom: 20px; }
     #logo img { max-width: 200px; }
-    #konfigurator { max-width: 600px; margin: auto; }
+    #quiz { max-width: 600px; margin: auto; }
     .question { display: none; opacity: 0; transition: opacity 0.3s ease; }
     .question.active { display: block; opacity: 1; }
     .answer {
@@ -60,7 +60,7 @@
     <img src="https://kompre.pl/skins/store_user/store_9cd390f998d36daee08a824eb4f4c853_1/images/logo.png" alt="Kompre logo">
   </div>
 
-  <div id="">
+  <div id="quiz">
     <h2 style="text-align:center;">Znajdź idealnego laptopa dla siebie</h2>
     <div id="question1" class="question active">
       <p><strong>1. Wielkość ekranu</strong></p>
@@ -85,7 +85,7 @@
     <div id="loading-spinner"></div>
     <button id="btn-result" class="btn">Zobacz ofertę</button>
     <button id="btn-back" class="btn">Powrót do Kompre</button>
-    <button id="btn-refresh" class="btn">Odśwież</button>
+    <button id="btn-refresh" class="btn">Odśwież quiz</button>
   </div>
 
   <script>
